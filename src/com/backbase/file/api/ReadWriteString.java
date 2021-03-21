@@ -14,7 +14,7 @@ public class ReadWriteString {
     public static void main(String args[]) throws IOException {
 
         Path path = Files.writeString(
-                Files.createTempFile("test", ".txt"), "test file content");
+                    Files.createTempFile("test", ".txt"), "test file content");
         System.out.println(path);
 
         String s = Files.readString(path);

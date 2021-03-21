@@ -33,6 +33,5 @@ public class PersonPredticateTest {
         //new way
         people.stream().filter(Predicate.not(Person::isAdult)).collect(Collectors.toList());
 
-
     }
 }

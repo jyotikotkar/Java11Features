@@ -22,6 +22,4 @@ public class NotPredicateTest {
         System.out.println("List Before::::::" +sampleList );
         System.out.println("List After::::::" +withoutBlanks );
     }
-
-
 }
