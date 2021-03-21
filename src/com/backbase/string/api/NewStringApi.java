@@ -12,15 +12,13 @@ import java.util.HashMap;
 public class NewStringApi {
 
     public static void main(String args[]) {
-/*
 
-        System.out.println("###########Sample Code for - isBlank()#########");
+       System.out.println("###########Sample Code for - isBlank()#########");
         //Sample Code for - isBlank()
         var blankStringWithoutSpaces = "";
         var blankStringWithSpace = " ";
         System.out.println(blankStringWithoutSpaces.isBlank());
         System.out.println(blankStringWithSpace.isBlank());
-
 
        System.out.println("#############Sample Code For -lines()############");
 
@@ -30,22 +28,22 @@ public class NewStringApi {
         var stream = message.lines();
         stream.forEach(str->System.out.println(str));
 
-        System.out.println("#############Sample Code For -strip()################");
-*/
+      System.out.println("#############Sample Code For -strip()################");
+
       //Sample Code For -strip()
         var mission = " Become the Bank that people love ";
         var updatedMission = mission.strip();
         System.out.println("@@@"+mission+"@@@");
         System.out.println("@@@"+updatedMission+"@@@");
 
-      /*  System.out.println("###############Sample Code For -repeat()################");
+      System.out.println("###############Sample Code For -repeat()################");
         //Sample Code For -repeat()
         var repeatMessage = "love ";
         int repeatCount= 2 ;
         var updatedMessage = repeatMessage.repeat(repeatCount);
         System.out.println(updatedMessage);
 
-        System.out.println("####################################################");
-*/
+      System.out.println("####################################################");
+
     }
 }
