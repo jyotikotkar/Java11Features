@@ -2,6 +2,12 @@
 
 import java.util.Arrays;
 
+/**
+ *  Java 11 - Shebang Files
+ * - mark the file as executable: chmod +x add
+ * - we can execute the file just like a script: ./add 1 2 3
+ * - use the launcher to invoke the shebang file:  java --source 11 add 1 2 3
+ */
 public class Addition
 {
     public static void main(String[] args) {
